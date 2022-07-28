@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6{
 p, a{
     font-family: Montserrat;
 }
+button:hover{
+    color: black !important;
+    border: 1px solid black !important;
+}
 /*banner starts*/
 .carousel img{
     width: 100%;
@@ -22,3 +26,17 @@ p, a{
 .captions h1{
     font-size: 3rem;
 }
+
+/*course*/
+
+.gap{
+    --bs-gutter-y: 1.5rem;
+}
+/*course*/
+
+/*explore*/
+.together{
+    --bs-gutter-x: -0.5rem;
+}
+
+/*explore*/
