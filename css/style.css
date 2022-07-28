@@ -17,6 +17,12 @@ button:hover{
     width: 100%;
     height: 700px;
 }
+.carousel-control-prev:hover{
+    border: none !important;
+}
+.carousel-control-next:hover{
+    border: none !important;
+}
 .captions{
     position: absolute;
     top: 40%;
