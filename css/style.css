@@ -46,8 +46,80 @@ button:hover{
 }
 
 /*explore*/
-
+.students-main button{
+    display: none;
+}
 /*footer*/
 .footer ul li{
     list-style-type: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+.captions {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+.captions h1{
+    font-size: 2rem;
+}
+.captions p{
+    font-size: 14px;
+}
+.carousel-item img{
+    height: 500px;
+}
+.course-top p{
+    font-size: 14px;
+}
+.course-in{
+    flex-direction: column;
+}
+.course-detail h3, p, h5{
+   margin-left: -38px; 
+}
+.course-pic{
+    text-align: center;
+}
+.ex-text h2{
+    font-size: 24px;
+}
+.numbers-main{
+    flex-direction: column;
+    padding-left: 40px;
+}
+.explore p{
+    margin-left: 5px;
+}
+.explore button{
+    margin-left: 40px;
+}
+.students-top{
+    text-align: center;
+}
+.details{
+    padding-left: 40px;
+}
+.card-heading, .card-text{
+    padding-left: 30px;
+}
+.imran{
+    display: none;
+}
+.faq-top p{
+    padding-left: 40px;
+}
+.all{
+    text-align: center;
+}
+.students-main button{
+    display: inline;
+    text-align: center;
+}
+.logos{
+    display: none;
+}
+.foot-text p{
+    padding-left: 35px;
+}
 }
