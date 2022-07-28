@@ -7,3 +7,13 @@
 .main-bg-primary{
     background-color: #289BDE;
 }
+.my-border-main{
+    color: #777777;
+}
+
+.gap{
+    --bs-gutter-y: 1.5rem;
+}
+.para-text-secondary{
+    color: #289BDE;
+}
