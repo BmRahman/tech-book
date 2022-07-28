@@ -8,3 +8,17 @@ h1, h2, h3, h4, h5, h6{
 p, a{
     font-family: Montserrat;
 }
+/*banner starts*/
+.carousel img{
+    width: 100%;
+    height: 700px;
+}
+.captions{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    text-align: center;
+}
+.captions h1{
+    font-size: 3rem;
+}
