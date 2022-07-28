@@ -34,7 +34,9 @@ button:hover{
 }
 
 /*course*/
-
+.courses-last-view{
+    display: none;
+}
 .gap{
     --bs-gutter-y: 1.5rem;
 }
@@ -75,11 +77,23 @@ button:hover{
 .course-in{
     flex-direction: column;
 }
+.course-pic img{
+    width: 100%;
+}
+.van{
+    display: none;
+}
 .course-detail h3, p, h5{
    margin-left: -38px; 
 }
 .course-pic{
     text-align: center;
+}
+.courses-last-view{
+    display: block;
+}
+.courses-last{
+    display: none;
 }
 .ex-text h2{
     font-size: 24px;
@@ -97,8 +111,12 @@ button:hover{
 .students-top{
     text-align: center;
 }
-.details{
-    padding-left: 40px;
+.join-text{
+    text-align: center;
+}
+.join-text p{
+    font-size: 14px;
+    padding-left: 43px;
 }
 .card-heading, .card-text{
     padding-left: 30px;
@@ -122,4 +140,77 @@ button:hover{
 .foot-text p{
     padding-left: 35px;
 }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.captions {
+    position: absolute;
+    top: 27%;
+    left: 0%;   
+}
+.carousel img{
+    height: 600px;
+}
+.course-in{
+    flex-direction: column;
+}
+.course-pic img{
+    width: 100%;
+}
+.course-detail{
+    margin-left: 1rem !important;
+}
+.van{
+    display: none;
+}
+.courses-last-view{
+    display: block;
+}
+.courses-last{
+    display: none;
+}
+.join-today{
+    padding-top: 30px;
+}
+.join-text{
+    text-align: center;
+}
+.join-text p{
+    font-size: 14px;
+    padding-left: 0px;
+}
+.logos{
+    display: none;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.captions {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.course-pic img{
+    height: 178px;
+}
+.van{
+    display: none;
+}
+.courses-last-view{
+    display: block;
+}
+.courses-last{
+    display: none;
+}
+.ex-pic img{
+    width: 100%;
+}
+.join-today{
+    padding-top: 30px;
+}
+.students-top{
+    text-align: center;
+}
+.logos{
+    display: none;
 }
