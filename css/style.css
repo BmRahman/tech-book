@@ -46,3 +46,8 @@ button:hover{
 }
 
 /*explore*/
+
+/*footer*/
+.footer ul li{
+    list-style-type: none;
+}
